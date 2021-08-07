@@ -1,0 +1,153 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?035022d1e4f925c78fa6733dfe9fb314") format("truetype"),
+url("./flaticon.woff?035022d1e4f925c78fa6733dfe9fb314") format("woff"),
+url("./flaticon.woff2?035022d1e4f925c78fa6733dfe9fb314") format("woff2"),
+url("./flaticon.eot?035022d1e4f925c78fa6733dfe9fb314#iefix") format("embedded-opentype"),
+url("./flaticon.svg?035022d1e4f925c78fa6733dfe9fb314#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "menu-button": "\f101",
+    "explore": "\f102",
+    "subscription": "\f103",
+    "library": "\f104",
+    "history": "\f105",
+    "youtube": "\f106",
+    "clock": "\f107",
+    "like": "\f108",
+    "down-arrow": "\f109",
+    "up-arrow": "\f10a",
+    "playlist": "\f10b",
+    "youtube-1": "\f10c",
+    "film-strip": "\f10d",
+    "gamepad": "\f10e",
+    "streaming": "\f10f",
+    "lightbulb-filled-interface-sign": "\f110",
+    "trophy": "\f111",
+    "settings": "\f112",
+    "flag": "\f113",
+    "question": "\f114",
+    "bulb": "\f115",
+    "search": "\f116",
+    "video-camera-with-play-button": "\f117",
+    "grid": "\f118",
+    "bell": "\f119",
+    "ellipsis": "\f11a",
+    "block": "\f11b",
+    "block-1": "\f11c",
+    "playlist-1": "\f11d",
+    "playlist-2": "\f11e",
+    "check-mark": "\f11f",
+    "user": "\f120",
+);
+
+.flaticon-menu-button:before {
+    content: map-get($flaticon-map, "menu-button");
+}
+.flaticon-explore:before {
+    content: map-get($flaticon-map, "explore");
+}
+.flaticon-subscription:before {
+    content: map-get($flaticon-map, "subscription");
+}
+.flaticon-library:before {
+    content: map-get($flaticon-map, "library");
+}
+.flaticon-history:before {
+    content: map-get($flaticon-map, "history");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-playlist:before {
+    content: map-get($flaticon-map, "playlist");
+}
+.flaticon-youtube-1:before {
+    content: map-get($flaticon-map, "youtube-1");
+}
+.flaticon-film-strip:before {
+    content: map-get($flaticon-map, "film-strip");
+}
+.flaticon-gamepad:before {
+    content: map-get($flaticon-map, "gamepad");
+}
+.flaticon-streaming:before {
+    content: map-get($flaticon-map, "streaming");
+}
+.flaticon-lightbulb-filled-interface-sign:before {
+    content: map-get($flaticon-map, "lightbulb-filled-interface-sign");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-flag:before {
+    content: map-get($flaticon-map, "flag");
+}
+.flaticon-question:before {
+    content: map-get($flaticon-map, "question");
+}
+.flaticon-bulb:before {
+    content: map-get($flaticon-map, "bulb");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-video-camera-with-play-button:before {
+    content: map-get($flaticon-map, "video-camera-with-play-button");
+}
+.flaticon-grid:before {
+    content: map-get($flaticon-map, "grid");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-ellipsis:before {
+    content: map-get($flaticon-map, "ellipsis");
+}
+.flaticon-block:before {
+    content: map-get($flaticon-map, "block");
+}
+.flaticon-block-1:before {
+    content: map-get($flaticon-map, "block-1");
+}
+.flaticon-playlist-1:before {
+    content: map-get($flaticon-map, "playlist-1");
+}
+.flaticon-playlist-2:before {
+    content: map-get($flaticon-map, "playlist-2");
+}
+.flaticon-check-mark:before {
+    content: map-get($flaticon-map, "check-mark");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
