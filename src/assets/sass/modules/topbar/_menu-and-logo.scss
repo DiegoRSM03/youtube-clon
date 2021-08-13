@@ -1,0 +1,31 @@
+.topbar__menu-and-logo {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.topbar__menu {
+  color: $WHITE_FOR_ICONS;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.topbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Between logo-icon and logo-text
+  gap: .2rem;
+}
+
+.topbar__logo-icon {
+  height: 20px;
+}
+
+.topbar__logo-text {
+  color: $WHITE_FOR_ICONS;
+  font-family: 'Roboto Bold';
+  font-size: 1.1rem;
+}

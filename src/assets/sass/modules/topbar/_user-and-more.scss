@@ -1,0 +1,13 @@
+ .topbar__actions-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.topbar__actions-item {
+  color: $WHITE_FOR_ICONS;
+  font-size: 1.2rem;
+  list-style: none;
+  cursor: pointer;
+}

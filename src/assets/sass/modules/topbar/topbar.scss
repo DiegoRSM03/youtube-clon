@@ -1,0 +1,15 @@
+// Using the @use statement is more recommended than that
+@import "menu-and-logo";
+@import "search-box";
+@import "user-and-more";
+
+.topbar {
+  background-color: $BLACK_LIGHT;
+  padding: .8rem 0;
+
+  .sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

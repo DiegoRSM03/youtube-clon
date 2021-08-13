@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  font-kerning: auto;
+  cursor: default;
+}
+
+div.container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.sub-container {
+  width: 95%;
+  max-width: 1400px;
+}
+
+body {
+  background-color: $BLACK_DARK;
+}
