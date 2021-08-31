@@ -7,6 +7,12 @@
   background-color: $BLACK_LIGHT;
   padding: .8rem 0;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
   .sub-container {
     display: flex;
     align-items: center;

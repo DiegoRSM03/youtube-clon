@@ -1,0 +1,89 @@
+.modal-leftbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  background-color: rgba(0, 0, 0, .6);
+
+  &--activated {
+    transform: translateX(0)
+  }
+
+  &--desactivated {
+    transform: translateX(-100%)
+  }
+}
+
+.leftbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  background-color: $BLACK_DARK;
+
+  width: 20%;
+  min-width: 250px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.leftbar .topbar__menu-and-logo {
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+.leftbar__separator {
+  margin: 1rem .5rem 1rem 0;
+  width: 100%;
+  border: 1px solid lighten($BLACK_DARK, 10);
+}
+
+.leftbar__actions-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.leftbar__action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+
+  list-style: none;
+  color: $GRAY_FOR_TEXT;
+  font-family: 'Roboto';
+  font-size: .9rem;
+
+  cursor: pointer;
+  width: 100%;
+  padding: .5rem 1.5rem;
+  
+  &:hover {
+    color: $WHITE_FOR_ICONS;
+    background-color: lighten($BLACK_DARK, 5);
+  }
+}
+
+.leftbar__action-icon {
+  color: $GRAY_FOR_ICONS;
+  font-size: 1.2rem;
+}
+
+.leftbar__more-of-youtube {
+  color: $GRAY_FOR_TEXT;
+  font-family: 'Roboto';
+  padding: .5rem 1.5rem 1.5rem 1.5rem;
+}

@@ -4,11 +4,11 @@ import MenuAndLogo from './MenuAndLogo'
 import SearchBox from './SearchBox'
 import UserAndMore from './UserAndMore'
 
-function TopBar() {
+function TopBar({ handleToggleMenuStatus }) {
   return (
     <div className="topbar container">
       <div className="sub-container">
-        <MenuAndLogo></MenuAndLogo>
+        <MenuAndLogo handleToggleMenuStatus={handleToggleMenuStatus}></MenuAndLogo>
         <SearchBox></SearchBox>
         <UserAndMore></UserAndMore>
       </div>

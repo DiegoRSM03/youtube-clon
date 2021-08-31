@@ -1,13 +1,21 @@
 import './assets/sass/style.scss'
 import './assets/iconfont/font/flaticon.css'
 
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import TopBar from './components/TopBar/TopBar'
+import LeftBar from './components/LeftBar/LeftBar'
 
 function App() {
+  const [ menuStatus, setMenuStatus ] = useState(false)
+
+  const handleToggleMenuStatus = () => {
+    setMenuStatus(!menuStatus)
+  }
+
   return (
     <Fragment>
-      <TopBar></TopBar>
+      <TopBar handleToggleMenuStatus={handleToggleMenuStatus}></TopBar>
+      <LeftBar menuStatus={menuStatus}></LeftBar>
     </Fragment>
   );
 }
